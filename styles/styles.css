@@ -5,6 +5,7 @@
 }
 body{
     background-color: hsl(217, 54%, 11%);
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,4 +15,51 @@ body{
 .container{
     background-color: hsl(216, 50%, 16%);
     padding: 1rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.image{
+    background-color: brown;
+    width: 20rem;
+    text-align: center;
+}
+.image img{
+    width: 90%;
+    height: auto;
+}
+.text-container1{
+    width: 80%;
+    font-size: 24px;
+    color: hsl(215, 27%, 91%);
+}
+.text-container2{
+    width: 80%;
+    color: hsl(215, 51%, 70%);
+}
+.text-container3{
+    font-display: flex;
+    justify-content: space-between;
+   
+}
+.price{
+    color: hsl(178, 100%, 50%) ;
+}
+.time{
+    color: hsl(215, 51%, 70%); ;
+}
+.bottom-container{
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.avatar{
+    width: 15%;
+}
+.text{
+
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
 }
