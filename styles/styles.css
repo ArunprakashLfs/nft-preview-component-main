@@ -1,3 +1,5 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -53,8 +55,11 @@ body{
 .time{
     color: hsl(215, 51%, 70%); 
 }
-hr{
-    color: hsl(215, 51%, 70%);
+.divider{
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 100%;
+    color: hsl(215, 32%, 27%);
+
 }
 .bottom-container{
     gap: 1rem;
