@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +7,7 @@
 }
 body{
     background-color: hsl(217, 54%, 11%);
+    font-family: outfit;
     padding: 3rem;
     display: flex;
     flex-direction: column;
